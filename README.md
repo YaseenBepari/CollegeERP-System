@@ -7,11 +7,7 @@ This is a College Enterprise Resource Planner Developed by me  for my college. W
 
 ## Deployment
 
-To deploy this project run
-
-```bash
 Deployed at AGMRCET v.2.0
-```
 
 
 ## Features of College ERP
