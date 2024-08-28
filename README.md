@@ -1,148 +1,147 @@
 
-College Enterprise Resource Planner
-This is a College Enterprise Resource Planner Developed by me and my project partners for my college. We use Python/Django Framwork for building an fully functional web application. (If facing problem!! : put discussion)
+# College Enterprise Resource Planner
 
-Deployed at SIGCE SIGCE v1.1.0
-For viewing the home page of student you must have required credentials given below
 
--> E-Mail : student@student.com -> Password : student@erp
+This is a College Enterprise Resource Planner Developed by me  for my college. We use Python/Django Framwork for building an fully functional web application. (If facing problem!! : put discussion)
 
-Features of this Project
-A. Admin Users Can
-See Overall Summary Charts of Students Performances, Staff Performances, Courses, Subjects, Leave, etc.
-Manage Staff (Add, Update and Delete)
-Manage Students (Add, Update and Delete)
-Manage Course (Add, Update and Delete)
-Manage Subjects (Add, Update and Delete)
-Manage Sessions (Add, Update and Delete)
-View Student Attendance
-Review and Reply Student/Staff Feedback
-Review (Approve/Reject) Student/Staff Leave
-B. Staff/Teachers Can
-See the Overall Summary Charts related to their students, their subjects, leave status, etc.
-Take/Update Students Attendance
-Add/Update Result
-Apply for Leave
-Send Feedback to HOD
-C. Students Can
-See the Overall Summary Charts related to their attendance, their subjects, leave status, etc.
-View Attendance
-View Result
-Apply for Leave
-Send Feedback to HOD
-Support Developer
-Add a Star 🌟 to this 👆 Repository
-Follow on Github & LinkedIn
-How to Install and Run this project?
-Pre-Requisites:
-Install Git Version Control [ https://git-scm.com/ ]
 
-Install Python Latest Version [ https://www.python.org/downloads/ ]
+## Deployment
 
-Install Pip (Package Manager) [ https://pip.pypa.io/en/stable/installing/ ]
+To deploy this project run
 
-Alternative to Pip is Homebrew
+```bash
+Deployed at AGMRCET v.2.0
+```
 
-Installation
+
+## Features of College ERP
+
+A. ADMIN USER CAN
+
+- See Overall Summary Charts of Students Performances, Staff Performances, Courses, Subjects, Leave, etc.
+- Manage Sessions (Add, Update and Delete)
+- View Student Attendance
+- Review and Reply Student/Staff Feedback
+- Review (Approve/Reject) Student/Staff Leave
+- Manage Staff (Add, Update and Delete)
+- Manage Subjects (Add, Update and Delete)
+- Manage Course (Add, Update and Delete)
+- Manage Students (Add, Update and Delete)
+B.STAFF/TEACHERS CAN
+- See the Overall Summary Charts related to their students, their subjects, leave status, etc.
+- Take/Update Students Attendance
+- Add/Update Result
+- Apply for Leave
+- Send Feedback to HOD
+C. Students CAN
+- See the Overall Summary Charts related to their attendance, their subjects, leave status, etc.
+- View Attendance
+- View Result
+- Apply for Leave
+- Send Feedback to HOD
+
+
+## Support
+
+1.Add a Star 🌟 to this 👆 Repository
+
+2.Follow on Github & LinkedIn
+
+
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yaseen-bepari/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
+
+
+## Installation Of projrct
+
 1. Create a Folder where you want to save the project
 
 2. Create a Virtual Environment and Activate
 
 Install Virtual Environment First
 
-$  pip install virtualenv
+```bash
+   pip install virtualenv
+  
+```
 Create Virtual Environment
 
 For Windows
-
-$  python -m venv venv
+```bash
+  python -m venv venv
+```
 For Mac
-
-$  python3 -m venv venv
+```bash
+python3 -m venv venv
+```
 For Linux
 
-$  virtualenv .
+```bash
+ virtualenv .
+
+```
 Activate Virtual Environment
 
 For Windows
+```bash
+source venv/scripts/activate
+```
 
-$  source venv/scripts/activate
 For Mac
 
-$  source venv/bin/activate
+```bash
+ source venv/bin/activate
+```
+
 For Linux
 
-$  source bin/activate
+```bash
+ source bin/activate
+```
 3. Clone this project
 
-$  git clone https://github.com/Ansarimajid/College-ERP.git
+```bash
+
+ https://github.com/YaseenBepari/CollegeERP-System.git
+
+```
 Then, Enter the project
-
-$  cd College-ERP
+```bash
+ cd College-ERP
+```
 4. Install Requirements from 'requirements.txt'
-
-$  pip3 install -r requirements.txt
+```bash
+pip3 install -r requirements.txt
+```
 5. Add the hosts
 
 Got to settings.py file
 Then, On allowed hosts, Use [] as your host.
+```bash
 ALLOWED_HOSTS = []
-Do not use the fault allowed settings in this repo. It has security risk!
+```
+6.Now Run Server
+```bash
+python manage.py runserver
+```
 
-6. Now Run Server
-
-Command for PC:
-
-$ python manage.py runserver
-Command for Mac:
-
-$ python3 manage.py runserver
-Command for Linux:
-
-$ python3 manage.py runserver
 7. Login Credentials
-
 Create Super User (HOD) Command for PC:
 
-$  python manage.py createsuperuser
-Command for Mac:
+```bash
+python manage.py createsuperuser
+```
 
-$  python3 manage.py createsuperuser
-Command for Linux:
 
-$  python3 manage.py createsuperuser
-Project's Journey
-| Admin/Staff/Student Login | | Add and Edit Course |
 
- Add and Edit Staff
- Add and Edit Student
- Add and Edit Subject
- Upload Staff's Picture
- Upload Student's Picture
- Sidebar Active Status
- Named URLs
- Model Forms for adding student
- Model Forms for all
- Views Permission (MiddleWareMixin)
- Attendance and Update Attendance
- Password Reset Via Email
- Apply For Leave
- Students Can Check Attendance
- Check Email Availability
- Reply to Leave Applications
- Reply to Feedback
- Admin View Attendance
- Password Change for Admin, Staff and Students using set_password()
- Admin Profile Edit
- Staff Profile Edit
- Student Profile Edit
- Student Dashboard Fixed
- Passing Page Title From View - Improved
- Staff Dashboard Fixed
- Admin Dashboard Fixed
- Staff Add Student's Result
- Staff Edit Result Using CBVs (Class Based Views)
- Google CAPTCHA
- Student View Result
- Change all links to be dynamic
- Code Restructure - Very Important
+## 🛠 Skills
+Python,Django,Javascript, HTML, CSS...
+
+
+## Feedback
+
+If you have any feedback, please reach out to me at yaseenbepari2002@gmail.com
+
