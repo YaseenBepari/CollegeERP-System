@@ -137,6 +137,17 @@ Create Super User (HOD) Command for PC:
 python manage.py createsuperuser
 ```
 
+## OUTPUT IMAGES
+![Screenshot (52)](https://github.com/user-attachments/assets/657504eb-33fb-458e-98af-a7835b9c1dae)
+![Screenshot (53)](https://github.com/user-attachments/assets/a539a93e-eca7-4df7-9475-2cb78b27e9e2)
+![Screenshot (57)](https://github.com/user-attachments/assets/43e2c39d-db3e-48a9-8ab1-5bf880a32cae)
+![Screenshot (61)](https://github.com/user-attachments/assets/c5d34ec1-7a33-454f-91ac-cbbf7bf90901)
+![Screenshot (65)](https://github.com/user-attachments/assets/3b47ad17-280a-45c7-9f7d-203836b9ae7e)
+![Screenshot (70)](https://github.com/user-attachments/assets/00eb59c2-1c90-409e-abb3-21be035096dc)
+![Screenshot (73)](https://github.com/user-attachments/assets/6248a031-a509-4370-8222-fd7d25f37aa1)
+
+![Screenshot (76)](https://github.com/user-attachments/assets/0a22d026-0dfa-4cbc-b764-7ebc26f68861)
+![Screenshot (79)](https://github.com/user-attachments/assets/1944bf3b-28ef-4914-824f-30c1f607e0ea)
 
 
 ## 🛠 Skills
